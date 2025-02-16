@@ -1,0 +1,451 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Data Security Mindmap" id="NGeB1KHoucDZUmb3KWI9">
+    <mxGraphModel dx="3400" dy="2317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-56" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Безопасность данных&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d9e8fb;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="700" y="-150" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-57" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Публичные данные&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9fbe8;strokeColor=#6cbf87;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="210" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-58" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Внутренние данные&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7e8d9;strokeColor=#bf8e6c;" parent="1" vertex="1">
+          <mxGeometry x="480" y="210" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-59" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Конфиденциальные данные&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fbe8e8;strokeColor=#bf6c6c;" parent="1" vertex="1">
+          <mxGeometry x="950" y="210" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-60" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Секретные данные&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8d9fb;strokeColor=#876cbf;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="210" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-61" value="Описание объектов" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="360" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-62" value="&lt;b&gt;Риск&lt;/b&gt;: Искажение данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Значительный&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Указание недостоверной информации может ввести клиентов в заблуждение и снизить доверие к компании.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-280" y="450" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-63" value="Общая информация о компании" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="570" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-64" value="&lt;b&gt;Риск&lt;/b&gt;: Некачественные данные&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Значительный&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Устаревшая информация может привести к недовольству клиентов, ошибкам в бронированиях и пропущенным возможностям продаж.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-280" y="670" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-65" value="Отчеты о продажах" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="360" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-66" value="&lt;b&gt;Риск&lt;/b&gt;: Утечка данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Значительный&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Конкуренты могут получить стратегическое преимущество&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="260" y="450" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-67" value="Внутренняя переписка" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="688" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-68" value="&lt;b&gt;Риск&lt;/b&gt;: Искажение данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Значительный&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Могут возникнуть недоразумения и ошибки в рабочих процессах&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="260" y="788" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-69" value="Персональные данные клиентов" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="340" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-70" value="&lt;b&gt;Риск&lt;/b&gt;: Утечка данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Критический&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Нарушение закона 152-ФЗ, крупные штрафы и потеря доверия&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="440" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-71" value="Договоры с клиентами" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="840" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-72" value="&lt;b&gt;Риск&lt;/b&gt;: Потеря данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Критический&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Невозможность восстановления может привести к юридическим последствиям&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="940" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-73" value="Финансовая информация" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="350" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-74" value="&lt;b&gt;Риск&lt;/b&gt;: Потеря данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Критический&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Потеря финансовых отчетов может парализовать бизнес-процессы&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="450" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-75" value="Планы стратегического развития" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="1520" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-76" value="&lt;b&gt;Риск&lt;/b&gt;: Утечка данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Критический&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Конкуренты могут использовать информацию для получения конкурентного преимущества&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="1610" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-77" parent="1" source="ZxXOYzGKt2ffdFBchT4Z-56" target="ZxXOYzGKt2ffdFBchT4Z-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-78" parent="1" source="ZxXOYzGKt2ffdFBchT4Z-56" target="ZxXOYzGKt2ffdFBchT4Z-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-79" style="exitX=0.772;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.496;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ZxXOYzGKt2ffdFBchT4Z-56" target="ZxXOYzGKt2ffdFBchT4Z-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="482" y="130" as="sourcePoint" />
+            <mxPoint x="488" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-80" style="exitX=0.976;exitY=0.64;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZxXOYzGKt2ffdFBchT4Z-56" target="ZxXOYzGKt2ffdFBchT4Z-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="698" y="85" as="sourcePoint" />
+            <mxPoint x="809" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-81" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="ZxXOYzGKt2ffdFBchT4Z-60" target="ZxXOYzGKt2ffdFBchT4Z-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-82" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="280" as="sourcePoint" />
+            <mxPoint x="40" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="280" />
+              <mxPoint x="80" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-83" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.875;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZxXOYzGKt2ffdFBchT4Z-57" target="ZxXOYzGKt2ffdFBchT4Z-63" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="290" as="sourcePoint" />
+            <mxPoint x="50" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-84" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="420" as="sourcePoint" />
+            <mxPoint x="-30" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="490" />
+              <mxPoint x="-30" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-85" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="630" as="sourcePoint" />
+            <mxPoint x="-30" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="700" />
+              <mxPoint x="-30" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-86" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="280" as="sourcePoint" />
+            <mxPoint x="580" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="280" />
+              <mxPoint x="620" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-87" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="420" as="sourcePoint" />
+            <mxPoint x="510" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="490" />
+              <mxPoint x="510" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-88" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.875;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ZxXOYzGKt2ffdFBchT4Z-67" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="280" as="sourcePoint" />
+            <mxPoint x="590" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="720" />
+              <mxPoint x="580" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-89" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="748" as="sourcePoint" />
+            <mxPoint x="510" y="818" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="818" />
+              <mxPoint x="510" y="818" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-90" value="О&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;перационные данные&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="918" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-91" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="ZxXOYzGKt2ffdFBchT4Z-90" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="280" as="sourcePoint" />
+            <mxPoint x="590" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="280" />
+              <mxPoint x="620" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-92" value="&lt;b&gt;Риск&lt;/b&gt;: Потеря данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Значительный&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Утрата операционных данных нарушает бизнес-процессы и требует восстановления, что может занять много времени.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1028" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-93" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="978" as="sourcePoint" />
+            <mxPoint x="510" y="1048" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1048" />
+              <mxPoint x="510" y="1048" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-94" value="&lt;b&gt;Риск&lt;/b&gt;: Некачественные данные&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Значительный&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Неполные или некорректные данные снижают качество бизнес-анализа, что мешает принимать точные решения.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="260" y="560" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxXOYzGKt2ffdFBchT4Z-95" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="ZxXOYzGKt2ffdFBchT4Z-94" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="420" as="sourcePoint" />
+            <mxPoint x="530" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-1" value="Данные авторизации" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1070" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-2" value="&lt;b&gt;Риск&lt;/b&gt;: Потеря данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Критический&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Потеря данных авторизации или истории платежей лишит клиентов доступа к сервисам..&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1180" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-3" value="История платежей" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1318" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-4" value="&lt;b&gt;Риск&lt;/b&gt;: Потеря данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Критический&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;:&amp;nbsp;Потеря истории платежей приведет к финансовым рискам, правовым последствиям и снижению доверия клиентов.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1430" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-5" value="&lt;b&gt;Риск&lt;/b&gt;: Искажение данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Критический&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Ошибки в персональных данных клиентов (например, паспортные данные) могут заблокировать проведение сделок.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="730" y="570" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-6" value="&lt;b&gt;Риск&lt;/b&gt;: Некачественные данные&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Значительный&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Некорректные персональные данные ухудшают клиентский опыт и вызывают ошибки в бронировании и сделках.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="730" y="708" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="280" as="sourcePoint" />
+            <mxPoint x="1080" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="370" />
+              <mxPoint x="1080" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="280" as="sourcePoint" />
+            <mxPoint x="1080" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="870" />
+              <mxPoint x="1080" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="72fYAFV1K-OxQdXNlZ3l-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="280" as="sourcePoint" />
+            <mxPoint x="1090" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-10" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=0.999;entryY=0.697;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="280" as="sourcePoint" />
+            <mxPoint x="1080.0000000000002" y="1349.82" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120.25" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="ZxXOYzGKt2ffdFBchT4Z-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="400" as="sourcePoint" />
+            <mxPoint x="1020" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="400" as="sourcePoint" />
+            <mxPoint x="1030" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="400" as="sourcePoint" />
+            <mxPoint x="1030" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="750" />
+              <mxPoint x="1030" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="900" as="sourcePoint" />
+            <mxPoint x="1030" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="900" />
+              <mxPoint x="1060" y="980" />
+              <mxPoint x="1030" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="72fYAFV1K-OxQdXNlZ3l-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="1130" as="sourcePoint" />
+            <mxPoint x="1030" y="1210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="1130" />
+              <mxPoint x="1060" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="1378" as="sourcePoint" />
+            <mxPoint x="1030" y="1468" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="1378" />
+              <mxPoint x="1060" y="1468" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-17" value="&lt;b&gt;Риск&lt;/b&gt;: Утечка данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Критический&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Утечка финансовых данных или ключей доступа приведет к серьёзным финансовым и юридическим потерям.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="570" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-18" value="&lt;b&gt;Риск&lt;/b&gt;: Искажение данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Критический&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Фальсификация финансовых данных приводит к неверной отчётности и правовым последствиям.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="688" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-19" value="&lt;b&gt;Риск&lt;/b&gt;: Обесценивание данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Значительный&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Устаревшие или некорректные финансовые данные создают иллюзию безопасности и приводят к ошибочным решениям.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="810" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-20" value="Данные о сделках" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="940" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-21" value="&lt;b&gt;Риск&lt;/b&gt;: Утечка данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Критический&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Данные о сделках содержат персональные и юридические сведения. Утечка грозит репутационными и юридическими последствиями, нарушением закона 152-ФЗ и крупными штрафами.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1048" width="300" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-22" value="&lt;b&gt;Риск&lt;/b&gt;: Потеря данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Критический&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Потеря данных о сделках лишает возможности восстановить историю взаимодействий, что влечёт финансовые потери, юридические споры и нарушение обязательств перед клиентами.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1200" width="300" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-23" value="&lt;b&gt;Риск&lt;/b&gt;: Искажение данных&lt;div&gt;&lt;b&gt;Оценка&lt;/b&gt;: Значительный&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование&lt;/b&gt;: Неправильные или искажённые данные о сделках могут привести к юридическим ошибкам, финансовым убыткам и конфликтам с клиентами.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1360" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1650" y="280" as="sourcePoint" />
+            <mxPoint x="1610" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1650" y="370" />
+              <mxPoint x="1610" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-25" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1650" y="370" as="sourcePoint" />
+            <mxPoint x="1610" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1650" y="970" />
+              <mxPoint x="1610" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=0.999;entryY=0.697;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1650" y="280" as="sourcePoint" />
+            <mxPoint x="1610.0000000000002" y="1549.82" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1650" y="1550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-27" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="410" as="sourcePoint" />
+            <mxPoint x="1560" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1590" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="72fYAFV1K-OxQdXNlZ3l-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="410" as="sourcePoint" />
+            <mxPoint x="1560" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1590" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-29" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="410" as="sourcePoint" />
+            <mxPoint x="1560" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1590" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="410" as="sourcePoint" />
+            <mxPoint x="1560" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1590" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-31" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=0.999;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="72fYAFV1K-OxQdXNlZ3l-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="1000" as="sourcePoint" />
+            <mxPoint x="1560" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1590" y="1100" />
+              <mxPoint x="1560" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=0.999;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.92;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="72fYAFV1K-OxQdXNlZ3l-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="1150" as="sourcePoint" />
+            <mxPoint x="1560" y="1250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1590" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-33" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=0.999;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="1000" as="sourcePoint" />
+            <mxPoint x="1560" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1590" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72fYAFV1K-OxQdXNlZ3l-34" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1600" y="1580" as="sourcePoint" />
+            <mxPoint x="1560" y="1650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1590" y="1580" />
+              <mxPoint x="1590" y="1650" />
+              <mxPoint x="1560" y="1650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,33 @@
+# Role для группы viewers (read-only доступ к ресурсам)
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: read-only-role
+  namespace: default
+rules:
+  - apiGroups: [""]
+    resources: ["pods", "services", "deployments"]
+    verbs: ["get", "list", "watch"]
+
+---
+# Role для группы editors (доступ к управлению конфигурациями)
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: config-manager-role
+  namespace: default
+rules:
+  - apiGroups: ["", "apps", "extensions"]
+    resources: ["pods", "services", "deployments", "configmaps"]
+    verbs: ["get", "list", "watch", "create", "update", "delete"]
+
+---
+# ClusterRole для группы admins (полный доступ к ресурсам кластера)
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: privileged-admin-role
+rules:
+  - apiGroups: ["*"]
+    resources: ["*"]
+    verbs: ["*"]

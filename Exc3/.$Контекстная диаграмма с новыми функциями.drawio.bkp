@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="C4 Context Diagram" id="NGeB1KHoucDZUmb3KWI9">
+    <mxGraphModel dx="1593" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KGwluIQNfYpkGlOxQURm-1" value="Мобильное приложение собственников" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9e8fb;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-2" value="Собственник" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fbe8e8;strokeColor=#bf6c6c;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-3" edge="1" parent="1" source="KGwluIQNfYpkGlOxQURm-2" target="KGwluIQNfYpkGlOxQURm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-4" value="API партнёра: Интеллектуальный домофон" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8d9fb;strokeColor=#876cbf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-5" edge="1" parent="1" source="KGwluIQNfYpkGlOxQURm-1" target="KGwluIQNfYpkGlOxQURm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-6" value="API партнёра: Интеллектуальный шлагбаум" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8d9fb;strokeColor=#876cbf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-7" edge="1" parent="1" source="KGwluIQNfYpkGlOxQURm-1" target="KGwluIQNfYpkGlOxQURm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-8" value="Система биометрического распознавания" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9fbe8;strokeColor=#6cbf87;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-9" edge="1" parent="1" source="KGwluIQNfYpkGlOxQURm-4" target="KGwluIQNfYpkGlOxQURm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-10" value="База данных автомобилей" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7e8d9;strokeColor=#bf8e6c;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="500" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-11" edge="1" parent="1" source="KGwluIQNfYpkGlOxQURm-6" target="KGwluIQNfYpkGlOxQURm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-12" value="Администратор" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fbe8d9;strokeColor=#bf6c6c;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-13" edge="1" parent="1" source="KGwluIQNfYpkGlOxQURm-12" target="KGwluIQNfYpkGlOxQURm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

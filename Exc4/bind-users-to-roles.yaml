@@ -1,0 +1,45 @@
+# Привязка Role read-only-role к пользователю user2 (группа viewers)
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: read-only-binding
+  namespace: default
+subjects:
+  - kind: User
+    name: user2
+    apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: read-only-role
+  apiGroup: rbac.authorization.k8s.io
+
+---
+# Привязка Role config-manager-role к пользователю user1 (группа editors)
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: config-manager-binding
+  namespace: default
+subjects:
+  - kind: User
+    name: user1
+    apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: config-manager-role
+  apiGroup: rbac.authorization.k8s.io
+
+---
+# Привязка ClusterRole privileged-admin-role к пользователю admin (группа admins)
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: privileged-admin-binding
+subjects:
+  - kind: User
+    name: admin
+    apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: ClusterRole
+  name: privileged-admin-role
+  apiGroup: rbac.authorization.k8s.io

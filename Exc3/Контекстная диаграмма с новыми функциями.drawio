@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="C4 Context Diagram" id="NGeB1KHoucDZUmb3KWI9">
+    <mxGraphModel dx="1235" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KGwluIQNfYpkGlOxQURm-1" value="Система&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PropDevelopment&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9e8fb;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="390" y="55" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-2" value="Собственник" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fbe8e8;strokeColor=#bf6c6c;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="440" y="-140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-3" style="entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KGwluIQNfYpkGlOxQURm-2" target="B2DRabCQOt5T0SR3pIyd-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-4" value="Система&amp;nbsp;&lt;div&gt;&quot;Интеллектуальный домофон&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8d9fb;strokeColor=#876cbf;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="140" y="240" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-5" parent="1" source="KGwluIQNfYpkGlOxQURm-1" target="KGwluIQNfYpkGlOxQURm-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-6" value="Система&amp;nbsp;&lt;div&gt;&quot;Интеллектуальный шлагбаум&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8d9fb;strokeColor=#876cbf;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="710" y="240" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-7" parent="1" source="KGwluIQNfYpkGlOxQURm-1" target="KGwluIQNfYpkGlOxQURm-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-8" value="Система биометрического распознавания" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9fbe8;strokeColor=#6cbf87;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="160" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-10" value="Система распознавания номеров авто" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7e8d9;strokeColor=#bf8e6c;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="810" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KGwluIQNfYpkGlOxQURm-12" value="Администратор" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fbe8d9;strokeColor=#bf6c6c;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="770" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2DRabCQOt5T0SR3pIyd-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Мобильное приложение для собственников&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="445" y="20" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B2DRabCQOt5T0SR3pIyd-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;API партнёра&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B2DRabCQOt5T0SR3pIyd-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;API партнёра&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B2DRabCQOt5T0SR3pIyd-5" style="exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KGwluIQNfYpkGlOxQURm-12" target="KGwluIQNfYpkGlOxQURm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="50" as="sourcePoint" />
+            <mxPoint x="680" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
